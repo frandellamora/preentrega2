@@ -2,6 +2,18 @@
     padding: 0;
     margin: 0;
 }
+header{
+    padding: 10px;
+    margin: 10px 20px 10px 20px;
+}
+
+.navbar{
+    font-size: 20px;
+
+}
+.color{
+    background-color: #212B38;
+}
 html{
     font-size: 70%;
 }
@@ -16,11 +28,11 @@ body{
     flex-direction: column;
     min-height: 100vh;
 }
-header{
-    background-color: #726EFF;
-    padding: 60px;
-    font-size: 200%;
+section{
+    text-align: justify;
+    
 }
+
 a{
     font-size: 25px;
     color: aliceblue;
@@ -35,7 +47,6 @@ h2 {
 h1{
     color: #5AFFE7;
     padding: 20px;
-    border: 15px solid black;
     margin: 20px 40px 20px 40px;
     font-size: 80px;
     top: 20px;
@@ -72,4 +83,8 @@ footer{
     font-size: 190%;
     margin-top: 20px;
     padding-top: 20px;
+}
+.size{
+    font-size: 15px;
+    font-style: italic;
 }
